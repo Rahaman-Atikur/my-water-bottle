@@ -8,13 +8,15 @@ import Bottles from './Components/bottles/bottles'
 //   { id: 1, name: 'okaToLight', price: 450, color: 'pink' },
 //   { id: 1, name: 'NoPowerNoGame', price: 850, color: 'Green' }
 // ]
+const bottlesPromise = fetch("./bottle.json").then(res => res.json());
+
 function App() {
 
   return (
     <>
       <h1>My Water Bottle</h1>
-      <Suspense>
-        <Bottles></Bottles>
+      <Suspense fallback={<h3>Bottles are Loading...</h3>}>
+        <Bottles bottlesPromise={bottlesPromise}></Bottles>
       </Suspense>
     </>
   )
