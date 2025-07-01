@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "brand": "HydroFlow",
+    "capacityLiters": 1.0,
+    "material": "Stainless Steel",
+    "color": "Matte Black",
+    "isInsulated": true,
+    "priceUSD": 24.99,
+    "isPopular": true,
+    "weightKg": 0.32,
+    "heightCm": 25
+  },
+  {
+    "id": 2,
+    "brand": "AquaPure",
+    "capacityLiters": 0.75,
+    "material": "BPA-Free Plastic",
+    "color": "Transparent Blue",
+    "isInsulated": false,
+    "priceUSD": 12.50,
+    "isPopular": false,
+    "weightKg": 0.18,
+    "heightCm": 22
+  },
+  {
+    "id": 3,
+    "brand": "EcoSip",
+    "capacityLiters": 1.5,
+    "material": "Glass",
+    "color": "Clear",
+    "isInsulated": false,
+    "priceUSD": 19.99,
+    "isPopular": true,
+    "weightKg": 0.55,
+    "heightCm": 28
+  },
+  {
+    "id": 4,
+    "brand": "TrailMate",
+    "capacityLiters": 0.5,
+    "material": "Aluminum",
+    "color": "Red",
+    "isInsulated": true,
+    "priceUSD": 15.00,
+    "isPopular": false,
+    "weightKg": 0.25,
+    "heightCm": 20
+  },
+  {
+    "id": 5,
+    "brand": "ChillPro",
+    "capacityLiters": 2.0,
+    "material": "Stainless Steel",
+    "color": "White",
+    "isInsulated": true,
+    "priceUSD": 34.95,
+    "isPopular": true,
+    "weightKg": 0.65,
+    "heightCm": 30
+  },
+  {
+    "id": 6,
+    "brand": "PureHydrate",
+    "capacityLiters": 1.2,
+    "material": "BPA-Free Plastic",
+    "color": "Green",
+    "isInsulated": false,
+    "priceUSD": 14.75,
+    "isPopular": false,
+    "weightKg": 0.22,
+    "heightCm": 24
+  },
+  {
+    "id": 7,
+    "brand": "AquaPeak",
+    "capacityLiters": 0.8,
+    "material": "Glass",
+    "color": "Blue",
+    "isInsulated": false,
+    "priceUSD": 17.20,
+    "isPopular": true,
+    "weightKg": 0.40,
+    "heightCm": 23
+  },
+  {
+    "id": 8,
+    "brand": "GoHydro",
+    "capacityLiters": 1.0,
+    "material": "Aluminum",
+    "color": "Silver",
+    "isInsulated": true,
+    "priceUSD": 20.00,
+    "isPopular": false,
+    "weightKg": 0.28,
+    "heightCm": 26
+  },
+  {
+    "id": 9,
+    "brand": "EcoFresh",
+    "capacityLiters": 1.8,
+    "material": "Stainless Steel",
+    "color": "Black",
+    "isInsulated": true,
+    "priceUSD": 29.50,
+    "isPopular": true,
+    "weightKg": 0.60,
+    "heightCm": 29
+  },
+  {
+    "id": 10,
+    "brand": "HydrateX",
+    "capacityLiters": 0.6,
+    "material": "BPA-Free Plastic",
+    "color": "Pink",
+    "isInsulated": false,
+    "priceUSD": 11.25,
+    "isPopular": false,
+    "weightKg": 0.19,
+    "heightCm": 21
+  }
+]
