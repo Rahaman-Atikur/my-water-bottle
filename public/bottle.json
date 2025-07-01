@@ -9,7 +9,8 @@
     "priceUSD": 24.99,
     "isPopular": true,
     "weightKg": 0.32,
-    "heightCm": 25
+    "heightCm": 25,
+    "image": "https://t3.ftcdn.net/jpg/07/86/76/06/360_F_786760607_IwcScz3k7Efj42i1S7mnewhWQXrhAa0o.jpg"
   },
   {
     "id": 2,
@@ -21,7 +22,8 @@
     "priceUSD": 12.50,
     "isPopular": false,
     "weightKg": 0.18,
-    "heightCm": 22
+    "heightCm": 22,
+    "image": "https://t3.ftcdn.net/jpg/07/86/76/06/360_F_786760607_IwcScz3k7Efj42i1S7mnewhWQXrhAa0o.jpg"
   },
   {
     "id": 3,
@@ -33,7 +35,8 @@
     "priceUSD": 19.99,
     "isPopular": true,
     "weightKg": 0.55,
-    "heightCm": 28
+    "heightCm": 28,
+    "image": "https://t3.ftcdn.net/jpg/07/86/76/06/360_F_786760607_IwcScz3k7Efj42i1S7mnewhWQXrhAa0o.jpg"
   },
   {
     "id": 4,
@@ -45,7 +48,8 @@
     "priceUSD": 15.00,
     "isPopular": false,
     "weightKg": 0.25,
-    "heightCm": 20
+    "heightCm": 20,
+    "image": "https://t3.ftcdn.net/jpg/07/86/76/06/360_F_786760607_IwcScz3k7Efj42i1S7mnewhWQXrhAa0o.jpg"
   },
   {
     "id": 5,
@@ -57,7 +61,8 @@
     "priceUSD": 34.95,
     "isPopular": true,
     "weightKg": 0.65,
-    "heightCm": 30
+    "heightCm": 30,
+    "image": "https://t3.ftcdn.net/jpg/07/86/76/06/360_F_786760607_IwcScz3k7Efj42i1S7mnewhWQXrhAa0o.jpg"
   },
   {
     "id": 6,
@@ -69,7 +74,8 @@
     "priceUSD": 14.75,
     "isPopular": false,
     "weightKg": 0.22,
-    "heightCm": 24
+    "heightCm": 24,
+    "image": "https://t3.ftcdn.net/jpg/07/86/76/06/360_F_786760607_IwcScz3k7Efj42i1S7mnewhWQXrhAa0o.jpg"
   },
   {
     "id": 7,
@@ -81,7 +87,8 @@
     "priceUSD": 17.20,
     "isPopular": true,
     "weightKg": 0.40,
-    "heightCm": 23
+    "heightCm": 23,
+    "image": "https://t3.ftcdn.net/jpg/07/86/76/06/360_F_786760607_IwcScz3k7Efj42i1S7mnewhWQXrhAa0o.jpg"
   },
   {
     "id": 8,
@@ -93,7 +100,8 @@
     "priceUSD": 20.00,
     "isPopular": false,
     "weightKg": 0.28,
-    "heightCm": 26
+    "heightCm": 26,
+    "image": "https://t3.ftcdn.net/jpg/07/86/76/06/360_F_786760607_IwcScz3k7Efj42i1S7mnewhWQXrhAa0o.jpg"
   },
   {
     "id": 9,
@@ -105,7 +113,8 @@
     "priceUSD": 29.50,
     "isPopular": true,
     "weightKg": 0.60,
-    "heightCm": 29
+    "heightCm": 29,
+    "image": "https://t3.ftcdn.net/jpg/07/86/76/06/360_F_786760607_IwcScz3k7Efj42i1S7mnewhWQXrhAa0o.jpg"
   },
   {
     "id": 10,
@@ -117,6 +126,7 @@
     "priceUSD": 11.25,
     "isPopular": false,
     "weightKg": 0.19,
-    "heightCm": 21
+    "heightCm": 21,
+    "image": "https://t3.ftcdn.net/jpg/07/86/76/06/360_F_786760607_IwcScz3k7Efj42i1S7mnewhWQXrhAa0o.jpg"
   }
 ]
