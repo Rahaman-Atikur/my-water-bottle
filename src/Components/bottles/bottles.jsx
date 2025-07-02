@@ -1,16 +1,17 @@
 import { use } from "react";
 import Bottle from "./bottle";
-import './App.css';
-
-export default function Bottles({bottlesPromise}) {
+export default function Bottles({ bottlesPromise }) {
     const bottles = use(bottlesPromise);
-    console.log(bottles);
+    // console.log(bottles);
     return (
         <div>
             <h1>Bottles: {bottles.length}</h1>
-            {
-                bottles.map(bottle =><Bottle key={bottle.id} bottle={bottle}></Bottle>)
-            }
+            <div className="grid grid-cols-3">
+                {
+                    bottles.map(bottle => <Bottle key={bottle.id} bottle={bottle}></Bottle>)
+                }
+            </div>
+
         </div>
     )
 }

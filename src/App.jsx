@@ -9,9 +9,7 @@ import Bottles from './Components/bottles/bottles'
 //   { id: 1, name: 'NoPowerNoGame', price: 850, color: 'Green' }
 // ]
 const bottlesPromise = fetch("./bottle.json").then(res => res.json());
-
 function App() {
-
   return (
     <>
       <h1>My Water Bottle</h1>
