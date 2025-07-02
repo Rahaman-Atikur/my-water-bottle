@@ -1,9 +1,3 @@
-// *
-// 1.To Get something from local storage
-
-// You will get it as an string
-// Then Convert To to an JavaString
-// *
 const getCartFromLocalStorage = () => {
   const storedCartString = localStorage.getItem("cart");
   if (storedCartString) {
@@ -19,7 +13,9 @@ const addItemToLocalStorage = (id) => {
   saveCartToLocalStorage(newCart);
 };
 
-const saveCartToLocalStorage = cart =>{
-    const cartStringified = JSON.stringify(cart);
-    localStorage.setItem('cart',cartStringified);
-}
+const saveCartToLocalStorage = (cart) => {
+  const cartStringified = JSON.stringify(cart);
+  localStorage.setItem("cart", cartStringified);
+};
+
+export { getCartFromLocalStorage as getCartLS, addItemToLocalStorage as addItSt};
