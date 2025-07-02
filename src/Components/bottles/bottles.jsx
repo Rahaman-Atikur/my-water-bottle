@@ -1,20 +1,18 @@
-import { use, useState } from "react";
+import { use, useEffect, useState } from "react";
 import Bottle from "./bottle";
 import { addItSt, getCartLS } from "../../LocalStorage";
 export default function Bottles({ bottlesPromise }) {
     const [cart, setCart] = useState([]);
     const bottles = use(bottlesPromise);
-    useEffect(() => {
+   useEffect(() => {
         const storeCartIds = getCartLS();
         const storedCart = [];
         for (const id of storeCartIds) {
-            console.log(id);
             const cartBottle = bottles.find(bottle => bottle.id === id);
             if (cartBottle) {
                 storedCart.push(cartBottle);
             }
         }
-        console.log('stored cart', storedCart);
         setCart(storedCart);
     }, [bottles]);
 
