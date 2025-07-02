@@ -22,10 +22,4 @@ const bottle = ({ bottle, handleAddToCart }) => {
         </div>
     );
 };
-
 export default bottle;
-
-// img src={bottle.image} alt="" />
-//             <h3>{bottle.brand}</h3>
-//             <h4>${bottle.priceUSD}</h4>
-//             <button className='btn'>Buy Now</button>
