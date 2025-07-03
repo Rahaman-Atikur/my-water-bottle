@@ -18,4 +18,13 @@ const saveCartToLocalStorage = (cart) => {
   localStorage.setItem("cart", cartStringified);
 };
 
-export { getCartFromLocalStorage as getCartLS, addItemToLocalStorage as addItSt};
+const removeFromLocalStorage = (id) => {
+  const storedCart = getCartFromLocalStorage();
+  const remainingCart = storedCart.filter((storedId) => storedId != id);
+};
+
+export {
+  getCartFromLocalStorage as getStoreCart,
+  addItemToLocalStorage as addIdToStoreCart,
+  removeFromLocalStorage as removeFromCart
+};
